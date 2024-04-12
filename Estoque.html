@@ -1,0 +1,28 @@
+<script>
+Saldo = parseInt(prompt("Informe o saldo inicial:"));
+
+tipo = parseInt(prompt("Informe tipo de entrada. 1-Compra ou 2-Venda"));
+
+quantidade = parseInt(prompt("Informe a quantidade, segunda a entrada"));
+
+if(tipo == 1){
+// se a condicao for mentira, ele entra aqui
+        saldo = saldo + quantidade;
+        document.write("Entrada de:" + saldo);
+}
+
+if(tipo == 2){
+
+     if(saldo>=quantidade){
+               saldo = saldo - quantidade;
+               document.write("Saída de: " + saldo);
+     }else{
+               document.write("O saldo" + saldo +" não é suficiente" + "<br>");
+     }
+}
+encerrar = prompt("Deseja encerrar? digite n ou s");
+}
+
+document.write("O saldo final é de: " + saldo + "<br>");
+        
+</script>

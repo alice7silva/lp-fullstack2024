@@ -1,0 +1,16 @@
+<script>
+// Determine a classificação de um aluno com base na sua nota em prova.
+// 100 - aprovado
+// <50 - reprovado
+// 50-60 - conselho / prova final
+nota = prompt("Digite sua nota, baby"); //lê a armazena nota do aluno
+
+if(nota >= 50){ // condição para ser aprovado
+   document.write("Aluno aprovado");
+}else if(nota >= 50 && nota <= 60){ //condição para ir p/ final
+   document.wirte("Aluno de final");
+}else{ 
+   document.write("Aluno reprovado");
+}
+
+</script>

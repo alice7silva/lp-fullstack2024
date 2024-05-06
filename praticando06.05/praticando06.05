@@ -1,0 +1,11 @@
+<script>
+let escolha; //variavel da escolha do usuario
+let play1 = 0; //variavel que guarda a pontuação do primeiro jogador
+let play2 = 0;
+ //variavel que guarda a pontuação do segundo jogador
+while(play1 < 3 && play2 < 3){//enquanto play1 ou o play2 não tiverem 3 pontos, repita
+    resposta = prompt("Escolha: " + " Pedra, Papel, Tesoura");//imprime na tela
+    console.log("play1 " + play1 + " vs " + play2 + " play2");//guarda o placar das pontuações
+   
+}
+</script>

@@ -1,0 +1,26 @@
+header img{
+    height: 30px;/*altura e largura*/
+    width: 100px;
+}
+section img{
+    height: 500px;
+    width: 500px;
+}
+#secao-cursos { /*alinhando os textos da sessao de cursos*/
+    text-align: center;
+}
+
+#secao-cursos img{ /*redimencionando imagens*/
+    height: 300px;
+    border-radius: 10px;
+}
+
+#secao-cursos .card{
+    margin: 5px;
+    color: rgba(204, 0, 211, 0.74);
+    background-color: mistyrose;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+    
+

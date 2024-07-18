@@ -3,11 +3,13 @@ header img{
     width: 100px;
 }
 section img{
-    height: 500px;
+    height: 600px;
     width: 500px;
 }
 #secao-cursos { /*alinhando os textos da sessao de cursos*/
     text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
 }
 
 #secao-cursos img{ /*redimencionando imagens*/
@@ -17,10 +19,15 @@ section img{
 
 #secao-cursos .card{
     margin: 5px;
-    color: rgba(204, 0, 211, 0.74);
+    color: black;
     background-color: mistyrose;
     border: 1px solid #ccc;
     border-radius: 50px;
 }
     
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
 

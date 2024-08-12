@@ -1,41 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--cabeçalho-->
     <header>
         <nav>
-        <div class="logo">
-            <img src="img/unnamed.png" alt="">
-      
-          </div>
-        <!--LISTA-->
-       <ul>
-        <li><a href="">FAQ</a></li>
-        <li><a href="">MENUS</a></li>
-        <li><a href="">TO GO</a></li>
-        <li><a href="">CATERING</a></li>
-        <li><a href="">PRIVATE EVENTS</a></li>
-        <li><a href="">GIFT CARDS</a></li>
-        <li><a href="">PREES</a></li>
-        <lI><a href="">LONDON</a></lI>
-        <li><a href="">RESERVATIONS</a></li>
-       </ul>
-       </nav>
+            <div class="logo">
+                <img src="img/unnamed.png" alt="">
+            </div>
+            <!--LISTA-->
+            <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">MENUS</a></li>
+                <li><a href="">TO GO</a></li>
+                <li><a href="">CATERING</a></li>
+                <li><a href="">PRIVATE EVENTS</a></li>
+                <li><a href="">GIFT CARDS</a></li>
+                <li><a href="">PRESS</a></li>
+                <lI><a href="">LONDON</a></lI>
+                <li><a href="">RESERVATIONS</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!--seção principal-->
-    <main></main>
+    <main>
         <!--seção carrosel-->
+        <section>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/img1.avif" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/img2.avif" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img3.avif " style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
 
         <!--seção endereço-->
-    
-    <!--rodape-->
+        <section class="secao-endereco">
+            <h2>WILLIAMSBURG</h2>
+            <h3>BREAKFAST 348 WYTHE AVE, BROOKLYN, NY 11249</h3>
+            <span style="font-size: 14px;">347-222-6722</span>
+            <h3>BREAKFAST /&nbsp;</h3>
+            <p>Monday - Friday:<br>8:00 AM - 9:30 AM</p>
+            <h3>BRUNCH /</h3>
+            <p>Monday - Sunday:<br>9:30 AM - 4:30 PM</p>
+            <h3>MIDDAY /</h3>
+            <p>Monday - Sunday:<br>4:30 PM - 5:30 PM</p>
+            <h3>DINNER /</h3>
+            <p>Sunday - Saturday:<br>5:30 PM - 10:00 PM</p>
+            <a href="https://resy.com/cities/ny/sunday-in-brooklyn" id="resyButton-GvIH7F6qh7tSoADcmOEKs">Book Sunday in Brooklyn / Williamsburg</a>
+        </section>
+    </main>
 
+    <!--rodape-->
+<footer>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</footer>
+    <script src="carrosel.js"></script>
 </body>
+
 </html>
